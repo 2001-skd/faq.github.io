@@ -67,3 +67,9 @@ section {
 .faq_toggle {
   display: block;
 }
+
+@media all and (max-width: 600px) {
+  .faq_card {
+    width: 350px;
+  }
+}
